@@ -23,10 +23,10 @@ This repository stays entirely within Microsoft Foundry's native product surface
 - **Azure Machine Learning** (native inside Foundry) — training, AutoML, MLOps
 - **Foundry Local** — on-device and offline model execution
 - **Foundry SDKs and VS Code Toolkit** — building from code and IDE
-- **Foundry Control Plane** — fleet visibility, guardrails, red-teaming
+- **Foundry Control Plane** — fleet visibility, guardrails, Content Safety and trust controls, red-teaming
 - **Observability** (within Control Plane) — tracing, evaluation, cost tracking
 
-Topics outside this boundary (AKS scaling, Cosmos DB, Entra ID governance, Content Safety as a standalone service, Microsoft 365 / Teams / Copilot Studio integration, Agent 365) are intentionally out of scope for this repository, even where they'd naturally come up in a broader agentic AI course. These are "made accessible via Foundry" per Microsoft's own FAQ, not native to it, and several fall under different MVP Award Technology Areas entirely. Keeping the scope narrow is deliberate.
+Topics outside this boundary (AKS scaling, Cosmos DB, Entra ID governance, Microsoft 365 / Teams / Copilot Studio integration, Agent 365, Work IQ, Fabric IQ) are intentionally out of scope for this repository, even where they'd naturally come up in a broader agentic AI course. These are "made accessible via Foundry" per Microsoft's own FAQ, or belong to a sibling product in the wider Microsoft IQ / M365 stack, not native to Foundry itself. Several also fall under different MVP Award Technology Areas entirely. Keeping the scope narrow is deliberate.
 
 ## Repository Design Philosophy
 
@@ -49,19 +49,29 @@ The repository starts with orientation and moves toward governed, observable, pr
 | Session | Topic | Foundry surface |
 |---|---|---|
 | 1 | Foundry Fundamentals — hubs, projects, RBAC | Orientation |
-| 2 | Foundry Models — catalog, MaaS vs MaaP, Model Router | Models |
-| 3 | Foundry Agent Service I — hosted agents, Responses API | Agent Service |
-| 4 | Foundry Agent Service II — multi-agent workflows, memory | Agent Service |
-| 5 | Foundry IQ — knowledge bases, permission-aware grounding | IQ |
-| 6 | Foundry Tools — connector catalog, custom MCP tools | Tools |
-| 7 | Azure Machine Learning in Foundry — training, AutoML, MLOps | Azure Machine Learning |
-| 8 | Foundry Local — on-device and offline model execution | Local |
-| 9 | Foundry SDKs + VS Code Toolkit — building from code and IDE | SDKs / Toolkit |
-| 10 | Foundry Control Plane — fleet visibility, guardrails | Control Plane |
-| 11 | Observability — tracing, evaluation, red-teaming | Observability |
-| 12 | Capstone — end-to-end governed agent build | All surfaces, integrated |
+| 2 | Foundry Models I — catalog & comparison | Models |
+| 3 | Foundry Models II — deployment types & Model Router | Models |
+| 4 | Foundry Models III — fine-tuning | Models |
+| 5 | Agent Service I — hosted agents basics | Agent Service |
+| 6 | Agent Service II — Microsoft Agent Framework (open-source SDK) | Agent Service |
+| 7 | Agent Service III — multi-agent orchestration | Agent Service |
+| 8 | Agent Service IV — memory, conversations, Responses API | Agent Service |
+| 9 | Foundry IQ I — knowledge bases & grounding | IQ |
+| 10 | Foundry IQ II — permission-aware retrieval, ACLs | IQ |
+| 11 | Foundry Tools I — prebuilt tool catalog | Tools |
+| 12 | Foundry Tools II — custom tools via MCP | Tools |
+| 13 | Azure ML in Foundry I — training & AutoML | Azure Machine Learning |
+| 14 | Azure ML in Foundry II — model registry & MLOps | Azure Machine Learning |
+| 15 | Foundry Local — on-device & edge | Local |
+| 16 | Foundry SDKs — Python, C#, JS/TS, Java | SDKs |
+| 17 | Foundry Toolkit for VS Code | SDKs / Toolkit |
+| 18 | Control Plane I — fleet governance & guardrails | Control Plane |
+| 19 | Control Plane II — Content Safety & trust controls | Control Plane |
+| 20 | Observability I — tracing with OpenTelemetry | Observability |
+| 21 | Observability II — evaluators & continuous evaluation | Observability |
+| 22 | Capstone — end-to-end governed agent build | All surfaces, integrated |
 
-This is the full, confirmed scope of native Microsoft Foundry as of mid-2026. Sessions won't be added beyond this list unless Microsoft's own documentation confirms a new native surface — the goal is complete coverage, not open-ended expansion.
+This is the full, confirmed scope of native Microsoft Foundry as of mid-2026, split into finer sessions for depth. Sessions won't be added beyond this list unless Microsoft's own documentation confirms a new native surface — the goal is complete, granular coverage, not open-ended expansion.
 
 ## What Each Session Contains
 
