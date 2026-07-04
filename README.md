@@ -12,7 +12,7 @@ Every session is designed to teach:
 - how to practice it step by step
 - how to validate and explain it confidently
 
-![Repository architecture](repo-arch.png)
+![Repository architecture](images/index.png)
 
 ## Scope
 
