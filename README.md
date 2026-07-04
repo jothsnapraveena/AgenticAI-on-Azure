@@ -12,6 +12,8 @@ Every session is designed to teach:
 - how to practice it step by step
 - how to validate and explain it confidently
 
+![Repository architecture](repo-arch.png)
+
 ## Scope
 
 This repository stays entirely within Microsoft Foundry's native product surfaces:
