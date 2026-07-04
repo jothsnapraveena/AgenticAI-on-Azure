@@ -1,5 +1,7 @@
 # Session 1: Foundry Fundamentals
 
+![Repository architecture](images/1.png)
+
 ## What this session covers
 
 The Microsoft Foundry portal, the hub/project structure underneath it, and where role-based access control fits before you touch a single model or agent. This is the orientation session — everything from Session 2 onward assumes you're comfortable navigating Foundry and know what a "project" actually is.
