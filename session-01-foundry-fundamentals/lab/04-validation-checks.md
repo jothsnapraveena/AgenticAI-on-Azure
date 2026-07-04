@@ -1,15 +1,21 @@
 # Validation Checks
 
-## After Step 2 (hub created)
-The hub should appear in your Foundry portal landing page under "Recent hubs" with a status of active/ready.
+## After Step 3 (hub created)
+The deployment overview should read "Your deployment is complete" with exactly four resources listed, all status **OK**:
+- your hub name (type: Microsoft.MachineLearningServices)
+- `<hubname><random>` (type: Microsoft.CognitiveServices/accounts)
+- `<hubname><random>` (type: Storage account)
+- `<hubname><random>` (type: Key vault)
 
-## After Step 3 (project created)
-The project should appear nested under the hub in the portal's left navigation, and its overview page should load without error.
+If any show a status other than OK, check `05-troubleshooting.md` before proceeding.
 
-## After Step 4 (RBAC located)
-You should be able to name at least one role assigned at the hub level and confirm whether it appears (inherited) at the project level.
+## After Step 4 (project created)
+You should land on the project's Overview page in ai.azure.com without an error, showing "Endpoints and keys" and "Project details" panels, and the Project name in the top-right matching what you entered in the "Name your project" dialog.
 
-## After Step 5 (Operate tab located)
-The Operate tab should load and show at minimum an empty or populated fleet overview — no agents/models are expected yet since none have been created.
+## After Step 6 (RBAC located)
+"View my access" on the hub's Access control (IAM) page should return at least one role (commonly Owner or Contributor, depending on how the resource was created).
 
-If any step fails to load or shows an access error, go to `troubleshooting.md`.
+## After Step 7 (Management center and nav groups located)
+You should be able to name the three project-level navigation groups (Build and customize, Observe and optimize, Protect and govern) and know that hub-level fleet visibility lives in the Management center, not a project tab.
+
+If any step fails to load or shows an access error, go to `05-troubleshooting.md`.
