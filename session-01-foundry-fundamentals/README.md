@@ -1,6 +1,6 @@
 # Session 1: Foundry Fundamentals
 
-![Repository architecture](images/1.png)
+![Repository architecture](/images/1.png)
 
 ## What this session covers
 
