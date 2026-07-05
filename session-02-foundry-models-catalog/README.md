@@ -1,5 +1,7 @@
 # Session 2: Foundry Models I — Catalog & Comparison
 
+![Repository architecture](/images/2.png)
+
 ## What this session covers
 
 The Foundry model catalog: what's in it, how models are organized, and how to compare models using benchmarks and evaluation metrics before picking one to deploy. This session stops short of deployment — that's Session 3 (Foundry Models II — Deployment & Model Router).
