@@ -1,0 +1,2 @@
+{"id": "CONV001", "scenario": "A shopper wants black running shoes under $120, then asks for size 9 availability in Dallas, then asks about a member discount."}
+{"id": "CONV002", "scenario": "A shopper asks about StrideRun Pro and later reveals they need size 9 in Dallas. The assistant should verify availability and suggest an alternative if unavailable."}

@@ -1,0 +1,3 @@
+{"id": "TOOL001", "query": "Show me black running shoes under $120.", "expected_tool": "search_products", "expected_inputs": {"category": "sneakers", "subcategory": "running", "color": "black", "max_price": 120}}
+{"id": "TOOL002", "query": "Is DailyRun X available in size 9 in Dallas?", "expected_tool": "check_inventory", "expected_inputs": {"product_id": "DEMO-SHOE-002", "size": "9", "location": "Dallas-TX"}}
+{"id": "TOOL003", "query": "Any member discount on DailyRun X?", "expected_tool": "get_promotions", "expected_inputs": {"product_id": "DEMO-SHOE-002", "member": true}}

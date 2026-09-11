@@ -1,0 +1,3 @@
+{"id": "QUAL001", "query": "Show me black running shoes under $120.", "criteria": "Relevance, completeness, coherence, fluency."}
+{"id": "QUAL002", "query": "Is StrideRun Pro available in size 9 in Dallas?", "criteria": "Grounded, direct, complete answer."}
+{"id": "QUAL003", "query": "My budget is $120. Should I buy CloudRunner?", "criteria": "Clearly disclose if the product exceeds budget."}

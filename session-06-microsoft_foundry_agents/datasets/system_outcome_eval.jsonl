@@ -1,0 +1,4 @@
+{"id": "SYS001", "query": "Show me black running shoes under $120.", "ground_truth": "Recommend only black running shoes at or below $120.", "criteria": "Respect color, use, and budget."}
+{"id": "SYS002", "query": "I need size 9 black running shoes in Dallas under $120.", "ground_truth": "Find a matching product and verify size 9 inventory in Dallas.", "criteria": "Complete discovery plus inventory verification."}
+{"id": "SYS003", "query": "Is StrideRun Pro available in size 9 in Dallas?", "ground_truth": "StrideRun Pro size 9 in Dallas is unavailable.", "criteria": "Verify inventory before answering."}
+{"id": "SYS004", "query": "Any member discount on DailyRun X?", "ground_truth": "Report only the verified active member promotion.", "criteria": "Verify promotion before claiming discount."}
