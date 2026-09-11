@@ -46,35 +46,6 @@ Each topic is positioned in the context of how Foundry is actually used, not onl
 **4. Step-by-step progression**
 The repository starts with orientation and moves toward governed, observable, production-shaped agent systems — entirely on Foundry.
 
-## Sessions
-
-| Session | Topic | Foundry surface |
-|---|---|---|
-| 1 | Foundry Fundamentals — hubs, projects, RBAC | Orientation |
-| 2 | Foundry Models I — catalog & comparison | Models |
-| 3 | Foundry Models II — deployment types & Model Router | Models |
-| 4 | Foundry Models III — fine-tuning | Models |
-| 5 | Agent Service I — hosted agents basics | Agent Service |
-| 6 | Agent Service II — Microsoft Agent Framework (open-source SDK) | Agent Service |
-| 7 | Agent Service III — multi-agent orchestration | Agent Service |
-| 8 | Agent Service IV — memory, conversations, Responses API | Agent Service |
-| 9 | Foundry IQ I — knowledge bases & grounding | IQ |
-| 10 | Foundry IQ II — permission-aware retrieval, ACLs | IQ |
-| 11 | Foundry Tools I — prebuilt tool catalog | Tools |
-| 12 | Foundry Tools II — custom tools via MCP | Tools |
-| 13 | Azure ML in Foundry I — training & AutoML | Azure Machine Learning |
-| 14 | Azure ML in Foundry II — model registry & MLOps | Azure Machine Learning |
-| 15 | Foundry Local — on-device & edge | Local |
-| 16 | Foundry SDKs — Python, C#, JS/TS, Java | SDKs |
-| 17 | Foundry Toolkit for VS Code | SDKs / Toolkit |
-| 18 | Control Plane I — fleet governance & guardrails | Control Plane |
-| 19 | Control Plane II — Content Safety & trust controls | Control Plane |
-| 20 | Observability I — tracing with OpenTelemetry | Observability |
-| 21 | Observability II — evaluators & continuous evaluation | Observability |
-| 22 | Capstone — end-to-end governed agent build | All surfaces, integrated |
-
-This is the full, confirmed scope of native Microsoft Foundry as of mid-2026, split into finer sessions for depth. Sessions won't be added beyond this list unless Microsoft's own documentation confirms a new native surface — the goal is complete, granular coverage, not open-ended expansion.
-
 ## What Each Session Contains
 
 Every session folder in this repository is designed to contain:
