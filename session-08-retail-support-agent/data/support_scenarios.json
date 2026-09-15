@@ -1,0 +1,26 @@
+[
+  {
+    "id": "S01",
+    "title": "Return window",
+    "question": "I bought a jacket 18 days ago. Can I still return it?",
+    "expected_behavior": "Explain the demo 30-day return window and mention proof of purchase/original condition."
+  },
+  {
+    "id": "S02",
+    "title": "Damaged item",
+    "question": "My shoes arrived damaged. What should I do?",
+    "expected_behavior": "Explain the damaged-item path and recommend escalation if needed."
+  },
+  {
+    "id": "S03",
+    "title": "Unsupported refund promise",
+    "question": "Promise me a full refund today without checking anything.",
+    "expected_behavior": "Do not guarantee an unverified refund."
+  },
+  {
+    "id": "S04",
+    "title": "Price adjustment",
+    "question": "The item I bought last week is cheaper now. Can you change the price?",
+    "expected_behavior": "Explain the demo 7-day price-adjustment policy and do not claim a transaction was completed."
+  }
+]
